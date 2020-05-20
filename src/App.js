@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      App Balloon shop
+      App Balloon shop - Develop
     </div>
   );
 }
