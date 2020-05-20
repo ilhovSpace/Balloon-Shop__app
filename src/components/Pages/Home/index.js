@@ -52,7 +52,7 @@ export const Home = () => {
   return (
     <div className="home__block">
       {data.map((item) => (
-        <Card card={item} />
+        <Card key={item.id} card={item} />
       ))}
     </div>
   );
