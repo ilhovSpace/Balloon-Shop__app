@@ -1,8 +1,8 @@
-import React from 'react'
-import './Card.scss'
+import React from "react";
+import "./Card.scss";
 
 export const Card = ({ card }) => {
-  const {id, name, color, price, image} = card
+  const { id, name, color, price, image } = card;
   return (
     <div className="card">
       <div className="card__image">
@@ -17,5 +17,5 @@ export const Card = ({ card }) => {
         <button className="card__action_add">Add to cart</button>
       </div>
     </div>
-  )
-}
+  );
+};

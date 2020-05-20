@@ -7,8 +7,10 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      <Navigation />
-      <AppRouter></AppRouter>
+      <div className="container">
+        <Navigation />
+        <AppRouter></AppRouter>
+      </div>
     </div>
   );
 }

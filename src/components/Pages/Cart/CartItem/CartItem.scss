@@ -1,0 +1,39 @@
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  background: #e4fff9;
+  margin-top: 20px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  max-width: 600px;
+  p {
+    margin-right: 25px;
+    opacity: 0.8;
+  }
+  button {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+  }
+  .minus {
+    cursor: pointer;
+    color: #f59baf;
+  }
+  .plus {
+    cursor: pointer;
+    color: #00cf91;
+  }
+  .delete {
+    cursor: pointer;
+    color: #58595b;
+  }
+  &:hover {
+    -webkit-box-shadow: 10px 10px 23px 5px rgba(219, 219, 219, 1);
+    -moz-box-shadow: 10px 10px 23px 5px rgba(219, 219, 219, 1);
+    box-shadow: 10px 10px 23px 5px rgba(219, 219, 219, 1);
+  }
+  @media screen and (max-width: 400px) {
+    padding: 5px 5px;
+  }
+}

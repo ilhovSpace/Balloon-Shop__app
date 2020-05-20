@@ -1,46 +1,47 @@
-.card{
+.card {
   position: relative;
-  background: #F2F8FD;
-  max-width: 250px;
+  background: #f2f8fd;
+  width: 250px;
   height: 300px;
   border-radius: 20px;
-  &:hover{
-    -webkit-box-shadow: 10px 10px 23px 5px rgba(219,219,219,1);
-    -moz-box-shadow: 10px 10px 23px 5px rgba(219,219,219,1);
-    box-shadow: 10px 10px 23px 5px rgba(219,219,219,1);
+  margin: 40px 60px;
+  &:hover {
+    -webkit-box-shadow: 10px 10px 23px 5px rgba(219, 219, 219, 1);
+    -moz-box-shadow: 10px 10px 23px 5px rgba(219, 219, 219, 1);
+    box-shadow: 10px 10px 23px 5px rgba(219, 219, 219, 1);
   }
-  &__image{
+  &__image {
     position: absolute;
     top: -30px;
     left: -30px;
-    img{
+    img {
       height: 350px;
     }
   }
-  &__info{
+  &__info {
     position: absolute;
     right: 10px;
     top: 40px;
     text-align: right;
     font-size: 1.2rem;
     opacity: 0.8;
-    &_name{
+    &_name {
       font-size: 1.5rem;
     }
-    &_color{
+    &_color {
       margin-top: 40px;
     }
 
-    &_price{
+    &_price {
       font-size: 1.4rem;
       margin-top: 10px;
     }
   }
-  &__action{
+  &__action {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    &_add{
+    &_add {
       outline: none;
       font-size: 1.4rem;
       color: #fff;
@@ -48,10 +49,10 @@
       height: 50px;
       border: none;
       border-radius: 5px;
-      background: #00CF91;
+      background: #00cf91;
       cursor: pointer;
-      &:hover{
-        background: #45D09E;
+      &:hover {
+        background: #45d09e;
       }
     }
   }
