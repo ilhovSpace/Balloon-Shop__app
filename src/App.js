@@ -1,10 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import AppRouter from "./router/AppRouter";
+import { Navigation } from "./components/UI";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="app">
-      App Balloon shop
+      <div className="container">
+        <Navigation />
+        <AppRouter></AppRouter>
+      </div>
     </div>
   );
 }

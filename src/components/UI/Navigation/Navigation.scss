@@ -1,0 +1,53 @@
+.nav {
+  font-size: 1.4rem;
+  margin-top: 10px;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+      cursor: pointer;
+    }
+    &__cart {
+      position: relative;
+      margin-right: 10px;
+      font-size: 1.6rem;
+
+      .icon {
+        color: #00cf91;
+        font-size: 1.9rem;
+      }
+
+      &_count {
+        position: absolute;
+        top: -3px;
+        right: -5px;
+        font-size: 1rem;
+        display: inline-block;
+        background: red;
+        color: #fff;
+        width: 21px;
+        height: 21px;
+        border-radius: 50%;
+        text-align: center;
+        opacity: 0.8;
+      }
+    }
+    &__menu {
+      a {
+        margin-right: 100px;
+        @media screen and (max-width: 400px) {
+          margin-right: 10px;
+        }
+        &:last-child {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+  &__center {
+    display: flex;
+    justify-content: center;
+  }
+}
